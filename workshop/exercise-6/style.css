@@ -1,0 +1,52 @@
+
+body {
+    padding: 0;
+    margin: 15px;
+}
+
+.limited {
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.title {
+    padding: 0;
+    margin: 10;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+h1 {
+    /* margins around the text limited time.  */
+    margin: 5px 15px 5px 15px; 
+}
+
+h2 {
+    margin: 10px 0 10px 0; 
+
+}
+
+.discount {
+    font-size: 30px;
+    
+}
+.store::after {
+    content: ' >';
+    
+}
+/* removes underline. */
+a:link {
+    text-decoration: none;
+}
+
+.trade {
+    text-align: center;
+    max-width: 600px;
+}
+
+

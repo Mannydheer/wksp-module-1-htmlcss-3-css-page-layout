@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+}
+
+
+
+.apple {
+    display: block;
+    width: 30px;
+    
+  
+}
+
+.head {
+    margin: 0;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #3a3633;
+    color: whitesmoke;
+    list-style-type: none;
+    
+   
+}
+
+/* Add hovering. */
+li a:hover {
+opacity: 0.5;
+transition: 200ms;
+}
+
+/* This will go get the a href and only adjust that */
+a {
+    color: white;
+    text-decoration: none;
+}

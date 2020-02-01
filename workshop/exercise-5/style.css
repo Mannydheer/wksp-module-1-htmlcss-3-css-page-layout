@@ -1,0 +1,29 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/workshop/exercise-5/imgs/bg.jpg');
+    /* NO REPEAT. */
+    background-repeat: no-repeat;
+    /* FULLBACKGROUND SIZE.  */
+    background-size: 100%;
+    
+
+   
+}
+
+h1 {
+
+    /* sets height equal or greater than height screen.  */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+
+    
+    
+}
