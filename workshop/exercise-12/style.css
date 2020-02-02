@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Poppins, sans-serif;
+    
    
 }
 
@@ -13,28 +14,32 @@ body {
 }
 
 .registration-form {
-    border: solid black 3px;
-    border-style: thin;
     text-align: center;
     line-height: 3;
-    border-width: 1px;    
+      
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px #ddd;
     margin: 50px;
-    
-    
-    
-
+    /* this will push the padding all around, reduce horizontal lines.  */
+    padding: 20px;
    
 
 
+
+    
 }
 
 .text-field {
+    
     border:lightskyblue solid 2px;
     padding: 10px;
     margin: 5px;
     width: 400px;
+   
+   
 
 }
+/* align extra left */
 
 .radio-label,
 .checkbox-label {
@@ -53,27 +58,44 @@ label {
 .section {
 text-align: left;
 line-height: 2;
-border-top: black solid 0.5px;
+border-top: lightslategrey thin solid;
 border-top-style: thin;
+padding: 10px;
+
 }
 
 .section > label {
+    text-align: left;
 
 
 }
 
 select {
 
+
 }
 
 textarea {
-
+    /* take 100% of the width of block level */
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    background: lightgray;
+ 
 }
 
 .form-button {
+    padding: 10px;
+    margin-top: 20px;
+    width: 100px;
+    background-color:#ffffff;
+    color: black;
+    border: solid lightskyblue 1px;
+    /* point will change when hovering.  */
+    cursor: pointer;
 
 }
 
 .form-button:hover {
-    
+    background-color: lightskyblue;
 }
