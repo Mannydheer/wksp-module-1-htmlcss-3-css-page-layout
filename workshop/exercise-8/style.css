@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  cursor: pointer;
 }
 
 .main {
@@ -10,7 +11,42 @@ body {
 }
 
 .fast {
+  animation: mymove 1s ease-in-out;
+}
+/* keyframes and animation create own property called mymove
+then transform translate will shift from 100% to 0%
+then opacity 0 (nothing) to 1 (something) */
+@keyframes mymove {
+
+  from {
+    transform: translate(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0%);
+    opacity: 1;
+  }
 }
 
+
 .cool {
+  text-transform: uppercase;
+  /* border shadow black */
+  box-shadow: 5px 5px;
+  background-color: lightskyblue;
+  font-size: 15px ;
+  color: white;
+  padding: 20px;
+
+}
+
+.cool:hover {
+  animation: pop 1s ease-in-out;
+
+}
+
+@keyframes pop  {
+  
+  100% {transform: scale(1.3);}
+
 }

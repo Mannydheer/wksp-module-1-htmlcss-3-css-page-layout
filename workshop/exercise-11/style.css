@@ -1,21 +1,35 @@
 .header {
+  text-align: center;
 
 }
 
 .facts {
+  border: black solid 0.5px;
+  border-width: thin;
+  
+  width: 100%;
+/* removes spacing between */
+  border-collapse: collapse;
 
 }
 
+tr:nth-child(even) {
+  background-color: lightgray;
+}
 tr {
+  
 
 }
 
 th {
-
+  /* will align text to the left.  */
+  text-align: left;
+  
 }
 
 td,
 th {
+  line-height: 2;
 
 }
 
@@ -25,9 +39,31 @@ h3 {
 
 /* Using CSS grid */
 .links {
+  display: grid;
+  grid-template-rows: auto;
+  /* repeat 4 columns L to R with 1/4 fraction size.  */
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 20px;
+  
+
+  list-style-type: none;
+  padding: 20px;
+  text-align: center;
+  
 }
 
+
+
 .links > li {
+  
+  background-color: rgb(4, 96, 153);
+  padding: 30px;
+ 
+}
+/* remove underline */
+a {
+  text-decoration: none;
+  color: white;
 }
 
 /* 

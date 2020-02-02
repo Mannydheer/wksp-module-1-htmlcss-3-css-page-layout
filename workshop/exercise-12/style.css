@@ -1,34 +1,64 @@
 body {
     margin: 0;
     font-family: Poppins, sans-serif;
+   
 }
 
 .header {
+    text-align: center;
+    background-color: darkturquoise;
+    color: white;
+    padding: 10px;
 
 }
 
 .registration-form {
+    border: solid black 3px;
+    border-style: thin;
+    text-align: center;
+    line-height: 3;
+    border-width: 1px;    
+    margin: 50px;
+    
+    
+    
+
+   
+
 
 }
 
 .text-field {
+    border:lightskyblue solid 2px;
+    padding: 10px;
+    margin: 5px;
+    width: 400px;
 
 }
 
 .radio-label,
 .checkbox-label {
+    text-align: left;
 
 }
 
 label {
+    text-align: center;
+    line-height: 2;
+    display: block;
+    
 
 }
 
 .section {
-
+text-align: left;
+line-height: 2;
+border-top: black solid 0.5px;
+border-top-style: thin;
 }
 
 .section > label {
+
 
 }
 

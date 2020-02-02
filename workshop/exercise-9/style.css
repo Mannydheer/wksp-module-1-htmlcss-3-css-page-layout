@@ -4,10 +4,57 @@ body {
 
 .nav {
     background-color: #383737;
+   
 }
 
 .nav-dropdown {
-    color: #fff;
-    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    /* POSITION */
+    position: relative;
+    /* I can set it width and height since its inline now */
     display: inline-block;
+    
 }
+
+.dropdownmenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+/* li color of text to white */
+.menu {
+    color: white;
+    
+}
+/* when we hover over nav dropdown, it will display whatever is in drop down menu class. The lists in this case. */
+.nav-dropdown:hover .dropdownmenu {
+    background-color: blue;
+    display: block;
+}
+
+.dropdownmenu {
+    display: none;
+    background-color: lightcyan;
+}
+li {
+    padding: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li:hover {
+    background-color: lightcyan;
+    
+}
+
+
+
+
+
