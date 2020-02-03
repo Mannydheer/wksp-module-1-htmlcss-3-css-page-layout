@@ -5,22 +5,52 @@ body {
 .container {
     display: grid;
     min-height: 100vh;
+    
+    
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "nav"
+    "main"
+    "footer"
+  
+    ;
 }
 
 .nav {
     height: 50px;
     background-color: rebeccapurple;
+    
+    
 }
+    
 
 .aside {
-    background-color: forestgreen;
+    display: none;
+    grid-area: aside;
+    background-color: forestgreen;    
+   
 }
 
 .main {
-
+    grid-area: main;
+    text-align: center;
 }
 
 .footer {
-    height: 100px;
+    grid-area: footer;
+    height: 100px; 
     background-color: midnightblue;
+    
+}
+/* DONT UNDERSTAND. */
+@media (min-width: 768px) {
+    .container {
+        grid-template-areas:
+        'nav nav nav'
+        'aside main main'
+        'aside footer footer';
+    }
+    .aside {
+        display: block;
+    }
 }

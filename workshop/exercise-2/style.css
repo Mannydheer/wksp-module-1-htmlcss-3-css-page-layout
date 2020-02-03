@@ -1,0 +1,64 @@
+
+body {
+    margin: 0;
+    max-height: 100%;
+}
+
+.container {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+
+   
+   
+}
+
+
+
+.navi {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.main {
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.Footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+/* 
+### Properties Needed
+
+```
+  margin
+  font-family
+  grid-template-rows
+  min-height
+  height
+  background-color
+  color
+  display
+  align-items
+  justify-content
+``` */

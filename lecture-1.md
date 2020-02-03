@@ -23,6 +23,7 @@ This `px` unit is **not** a screen pixel, but a CSS pixel.
 
 It's approx. 1/96 inches, _but it varies from display to display._
 
+- 
 ---
 
 ### Example of a Desktop site
@@ -113,7 +114,7 @@ Media queries can be used to check many things, such as:
 
 ### A basic media query
 
-[Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_ex1)
+[Try it](https ://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_ex1)
 
 ---
 
@@ -132,6 +133,8 @@ Media queries can be used to check many things, such as:
 
 [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_link)  |  [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_first-child2)
 
+
+CSS COMBINATORS ***** REVIEW THIS. 
 ---
 
 ### [Pseudo elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements#Index_of_standard_pseudo-elements)

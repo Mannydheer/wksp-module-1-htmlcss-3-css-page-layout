@@ -13,18 +13,6 @@ This is a full screen background image with text in the center
 Your HTML should have the following structure:
 
 ```html
-<!DOCTYPE html>
-<html>
-
-<head>
-    <link href="style.css" rel="stylesheet" />
-</head>
-
-<body>
-    ...
-</body>
-
-</html>
 ```
 
 - Set the body margin to 0
